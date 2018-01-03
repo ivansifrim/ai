@@ -1,50 +1,50 @@
 {
-  "name": "memebreak",
-  "version": "0.1.0",
-  "private": true,
-  "main": "webpack.config.js",
-  "dependencies": {
-    "axios": "^0.17.1",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-plugin-add-module-exports": "*",
-    "babel-plugin-react-html-attrs": "*",
-    "babel-plugin-transform-class-properties": "*",
-    "babel-plugin-transform-decorators-legacy": "*",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-es2015": "*",
-    "babel-preset-react": "*",
-    "babel-preset-stage-0": "*",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1",
-    "react-redux": "^5.0.6",
-    "react-router-dom": "^4.2.2",
-    "react-scripts": "^1.0.14",
-    "redux": "^3.7.2",
-    "redux-logger": "^3.0.6",
-    "redux-promise-middleware": "^5.0.0",
-    "redux-thunk": "^2.2.0",
-    "spin.js": "^3.1.0",
-    "svg-inline-loader": "^0.8.0",
-    "underscore": "^1.8.3"
-  },
-  "engines": {
-    "node": "6.9.x"
-  },
-  "scripts": {
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
-    "start": "react-scripts start",
-    "woohoo": "webpack",
-    "gogo": "webpack-dev-server src/index.js public/client.min.js",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  },
-  "devDependencies": {
-    "css-loader": "^0.28.7",
-    "enzyme": "^3.3.0",
-    "enzyme-adapter-react-16": "^1.1.1",
-    "webpack": "^3.10.0",
-    "webpack-dev-server": "^2.9.7"
-  }
+	"name": "memebreak",
+	"version": "0.1.0",
+	"private": true,
+	"main": "webpack.config.js",
+	"dependencies": {
+		"axios": "^0.17.1",
+		"babel-core": "^6.26.0",
+		"babel-loader": "^7.1.2",
+		"babel-plugin-add-module-exports": "*",
+		"babel-plugin-react-html-attrs": "*",
+		"babel-plugin-transform-class-properties": "*",
+		"babel-plugin-transform-decorators-legacy": "*",
+		"babel-preset-env": "^1.6.1",
+		"babel-preset-es2015": "*",
+		"babel-preset-react": "*",
+		"babel-preset-stage-0": "*",
+		"react": "^16.1.1",
+		"react-dom": "^16.1.1",
+		"react-redux": "^5.0.6",
+		"react-router-dom": "^4.2.2",
+		"react-scripts": "^1.0.14",
+		"redux": "^3.7.2",
+		"redux-logger": "^3.0.6",
+		"redux-promise-middleware": "^5.0.0",
+		"redux-thunk": "^2.2.0",
+		"spin.js": "^3.1.0",
+		"svg-inline-loader": "^0.8.0",
+		"underscore": "^1.8.3"
+	},
+	"engines": {
+		"node": "6.9.x"
+	},
+	"scripts": {
+		"dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
+		"start": "react-scripts start",
+		"woohoo": "webpack",
+		"gogo": "webpack-dev-server src/index.js public/client.min.js",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"devDependencies": {
+		"css-loader": "^0.28.7",
+		"enzyme": "^3.3.0",
+		"enzyme-adapter-react-16": "^1.1.1",
+		"webpack": "^3.10.0",
+		"webpack-dev-server": "^2.9.7"
+	}
 }
