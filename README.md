@@ -24,7 +24,7 @@ yarn run start
 ## Run the tests: 
 
 ```
-yarn run test
+yarn run test a
 
 ```
 

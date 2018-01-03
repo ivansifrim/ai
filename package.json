@@ -32,10 +32,7 @@
 		"node": "6.9.x"
 	},
 	"scripts": {
-		"dev": "./node_modules/.bin/webpack-dev-server --content-base public --inline --hot",
 		"start": "react-scripts start",
-		"woohoo": "webpack",
-		"gogo": "webpack-dev-server src/index.js public/client.min.js",
 		"build": "react-scripts build",
 		"test": "react-scripts test --env=jsdom",
 		"eject": "react-scripts eject"
